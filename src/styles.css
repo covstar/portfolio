@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: linear-gradient( to bottom right, #ff0040, #011071 90%), url('/src/img/bg-abstract.jpg');
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "sideNav header header"
+                        "sideNav main main"
+                        "sideNav footer footer";
+}
+.active{
+    font-weight: 700;
+
+}
+.displayGrid{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: "img"
+                            "txt";
+}
+.textarea{
+    grid-area: txt;
+}
+.imgs{
+    grid-area: img;
+}
+.myImage{
+    max-width: 24rem !important; 
+}
+
+
+@media (max-width:720px) {
+    .myImage {
+        max-width: 17rem !important;
+    }
+
+    .laptop {
+        width: 20.5rem !important;
+        max-width: 20.5rem !important;
+
+    }
+
+}
+@media (min-width: 721px) and (max-width: 1290px) {
+.myImage {
+        max-width: 20rem !important;
+    }
+
+    .laptop {
+        max-width: 19.5rem !important;
+
+    }
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: sideNav;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
