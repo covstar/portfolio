@@ -15,6 +15,8 @@ module.exports = {
     // font family
     fontFamily:{
       'Nunito': ['Nunito'],
+      'Poppins': ['Poppins'],
+      'Karla': ['Karla'],
     },
     // animation
       animation: {
