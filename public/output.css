@@ -1212,14 +1212,14 @@ video {
     padding-right: 2rem;
   }
 
-  .sm\:py-6{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .sm\:px-12{
@@ -1247,6 +1247,10 @@ video {
     text-align: center;
   }
 
+  .sm\:text-justify{
+    text-align: justify;
+  }
+
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1255,6 +1259,15 @@ video {
   .sm\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:leading-normal{
+    line-height: 1.5;
   }
 
   .sm\:tracking-widest{
