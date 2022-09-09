@@ -1194,6 +1194,32 @@ video {
     border-radius: 9999px;
   }
 
+  .sm\:rounded-l-none{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .sm\:rounded-b-none{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .sm\:rounded-tl-none{
+    border-top-left-radius: 0px;
+  }
+
+  .sm\:rounded-br-none{
+    border-bottom-right-radius: 0px;
+  }
+
+  .sm\:rounded-tr-3xl{
+    border-top-right-radius: 1.5rem;
+  }
+
+  .sm\:rounded-bl-3xl{
+    border-bottom-left-radius: 1.5rem;
+  }
+
   .sm\:border-none{
     border-style: none;
   }
@@ -1225,6 +1251,11 @@ video {
   .sm\:px-12{
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .sm\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sm\:pt-8{
