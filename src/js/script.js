@@ -20,7 +20,7 @@ $(document).ready(function(){
   $(window).scroll(function() {
   if ($('.hire-button').is(':visible')) {
     // do your special stuff here
-    $('.hire-button').addClass("animate-pulse")
+    $('.hire-button').addClass("animate__rubberBand")
   }
 });
 })
