@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url('./img/bg.jpg'), linear-gradient( to bottom right, #ff0040, #011071 90%);
+    background-image: linear-gradient(to bottom right, #ff0040, #011071 90%) ;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "sideNav header header"
                         "sideNav main main"
