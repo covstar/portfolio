@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: linear-gradient(to bottom right, #ff0004, #011071 70%) ;
+    background-image: url("../src/img/bg-intro-desktop.png"), linear-gradient(to bottom right, #ff00bb, #011071 70%) ;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "sideNav header header"
                         "sideNav main main"
@@ -26,6 +26,10 @@ body{
     max-width: 24rem !important; 
 }
 
+
+textarea,input:focus{
+    outline: none;
+}
 
 @media (max-width:720px) {
     .myImage {
